@@ -13,9 +13,14 @@ def main():
 
   if op == "+":
     result = add(a, b)
+  elif op == "-":
+    result = subtract(a, b)
 
 if __name__ == "__main__":
     main()
 
 def add (a, b):
   return a + b
+
+def subtract (a, b):
+  return a - b
