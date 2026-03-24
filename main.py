@@ -1,5 +1,14 @@
 # Math Magician Main File
-# usage: math operator operand1 operand2
+  # usage: math operator operand1 operand2
+
+def add (a, b):
+  return a + b
+
+def subtract (a, b):
+  return a - b
+
+def multiply (a, b):
+    return a * b
 
 
 def main():
@@ -15,12 +24,8 @@ def main():
     result = add(a, b)
   elif op == "-":
     result = subtract(a, b)
+  elif op == "*":
+    result = multiply(a, b)
 
 if __name__ == "__main__":
     main()
-
-def add (a, b):
-  return a + b
-
-def subtract (a, b):
-  return a - b
